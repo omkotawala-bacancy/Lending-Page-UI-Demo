@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* Home Page CSS */
+
+#home{
+    background-image: url(/assets/images/HomeImage.png);
+    height: 100vh;
+}
+
+.homecontainer{
+   padding: 50px 80px 80px 80px;
+   
+}
+
+.logo{
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    gap: 53px;
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav p{
+    font-size: 20px;
+}
+
+.homeinfo{
+    margin-top: 200px;
+}
+
+.title{
+    font-size: 64px;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.data{
+    width: 604px;
+    margin: 2rem 0px;
+    font-size: 16px;
+
+}
+
+.welcome{
+    font-size: 18px;
+}
+
+ .book{
+    color: white;
+    background-color: #FF8D41;
+    padding: 24px, 12px;
+    width: 119px;
+    height: 44px;
+    border-radius: 10px;
+    margin-right: 10px;
+ }
+
+ .explore{
+    color: white;
+    background: none;
+    padding: 24px, 12px;
+    width: 119px;
+    height: 44px;
+    border-radius: 10px;
+    border-color: white;
+ }
+
+
+/* About Page CSS */
+
+.aboutcontainer{
+    margin: 100px 129px;
+    padding: 0px 15px;
+    max-width: 1290px;
+}
+
+ .ausdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+ }
+
+ .sideborderright, .sideborderleft{
+    width: 30px;
+    background-color: #424242;
+    height: 2px;
+    border-radius: 30%;
+ }
+
+ .aus{
+    display: flex;
+    color: #616161;
+    font-weight: bold;
+    justify-content: center;
+    font-size: 16px;
+    
+ }
+ 
+ .sec1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .data1{
+    width: 650px;
+    height: 322px;
+ }
+
+ .history{
+    font-size: 57px;
+    font-weight: bold;
+    color: #424242;
+    margin-top: 10px;
+ }
+
+
+ .mdata1{
+    color: #424242;
+    margin: 32px 0px 16px 0px;
+ }
+
+  .mdata2{
+    color: #424242;
+    margin: 16px 0px 32px 0px;
+ }
+
+ .read{
+    color: #FF8D41;
+    background-color: white;
+    padding: 24px, 12px;
+    width: 119px;
+    height: 44px;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 1px solid #FF8D41 ;
+ }
+
+ .sec2{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+ }
+
+  .data2{
+    width: 650px;
+    height: 322px;
+ }
+ 
+
+/* Room Line CSS */
+
+.line{
+    background-color: #FF8D41;
+    height: 119px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 128px ;
+}
+
+.num{
+    font-size: 48px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.service, .area, .nrooms, .hcustomer{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Rooms CSS */
+
+#room{
+    background-color: #F8F9FB;
+}
+
+.roomcontainer{
+    padding: 100px 156px;
+    
+}
+
+.ourroom{
+    font-size: 16px;
+    font-weight: bold;
+    color: #424242;
+    display: flex;
+    justify-content: center;
+}
+
+.erooms{
+    margin-top: 24px;
+    font-size: 57px;
+    font-weight: bolder;
+    color: #424242;
+    display: flex;
+    justify-content: center;
+}
+
+.roomcards{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    box-sizing: border-box;
+}
+
+.room1{
+    display: flex;
+    flex-direction: column;
+    box-shadow : 2px #424242;
+}
+
+.rimg1{
+    width: 380px;
+    height: 250px;
+}
+
+.r1info{
+    width: 380px;
+    height: 98px;
+    border: 0.01px solid rgb(66, 66, 66, 0.1) ;
+    background-color: #ffffff;
+}
+
+.jsuite{
+    color: #424242;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.price1{
+    color: #424242;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.room2{
+    display: flex;
+    flex-direction: column;
+}
+
+.rimg2{
+    width: 380px;
+    height: 250px;
+}
+
+.r2info{
+    width: 380px;
+    height: 98px;
+    border: 0.01px solid rgb(66, 66, 66, 0.1) ;
+    background-color: #ffffff;
+}
+
+.esuite{
+    color: #424242;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.price2{
+    color: #424242;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.room3{
+    display: flex;
+    flex-direction: column;
+}
+
+.rimg3{
+    width: 380px;
+    height: 250px;
+}
+
+.r3info{
+    width: 380px;
+    height: 98px;
+    border: 0.01px solid rgb(66, 66, 66, 0.1) ;
+    background-color: #ffffff;
+}
+
+.psuite{
+    color: #424242;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.price3{
+    color: #424242;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Service Page CSS */
+
+
+.servicecontainer{
+    padding: 100px 157px;
+
+}
+
+.servicescard{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 48px;
+    row-gap: 48px;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    height: 258px;
+    border: 0.01px solid rgb(66, 66, 66, 0.1) ;
+}
+
+.innerservice{
+    padding: 64px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.servicelogo{
+    width: 36px;
+    height: 36px;
+    margin-bottom: 32px;
+}
+
+.innerinfo{
+    color: #424242;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.moreinfo{
+    color: #9E9E9E;
+    font-size: 12px;
+}
+
+.scard{
+    width: 350px;
+    height: 258px;
+    background-color: #FF8D41;
+    border: 0.01px solid rgb(66, 66, 66, 0.1) ;
+}
+
+.sinnerservice{
+    padding: 64px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sinnerinfo{
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.smoreinfo{
+    font-size: 12px;
+}
+
+/* Review Page CSS */
+
+.reviewcontainer{
+    padding: 100px 157px;
+}
+
+.reviews{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.revque{
+    font-size: 40px;
+    font-weight: bold;
+    color: #424242;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.reviewcard{
+    width: 298px;
+    height: 218px;
+}
+
+.innerreview{
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    height: 30px;
+    width: 30px;
+}
+
+.original-review{
+    font-size: 16px;
+    color: #757575;
+    width: 250px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.reviewer{
+    font-size: 16px;
+    font-weight: bold;
+    color: #424242;
+    margin-top: 24px;
+}
+
+.e-mail{
+    font-size: 12px;
+    margin-top: 8px;
+    color: #757575;
+    
+}
+
+
+/* Contact Page CSS */
+
+footer{
+    padding: 100px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-info{
+    height: 174px;
+    width: 280px;
+}
+
+.clogo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #424242;
+}
+
+.info-text{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #9E9E9E;
+}
+
+.mail{
+    color: #9E9E9E;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.qlinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 174px;
+    width: 150px;
+}
+
+.quicklink{
+    font-size: 16px;
+    color: #424242;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+footer .qlinks ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+footer .qlinks ul li a{
+    color: #9E9E9E;
+    text-decoration: none;
+}
+
+footer .qlinks ul li{
+    margin-top: 16px;
+}
