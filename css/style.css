@@ -6,12 +6,19 @@
     font-family: "Poppins", sans-serif;
 }
 
+.container{
+    max-width: 1290px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
 
 /* Home Page CSS */
 
 #home{
     background-image: url(/assets/images/HomeImage.png);
     height: 100vh;
+    background-repeat: no-repeat;
 }
 
 .homecontainer{
@@ -20,14 +27,14 @@
 }
 
 .logo{
-    font-size: 22pt;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
 nav ul a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 nav ul{
@@ -43,7 +50,7 @@ nav{
 }
 
 nav p{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .homeinfo{
@@ -51,7 +58,7 @@ nav p{
 }
 
 .title{
-    font-size: 64px;
+    font-size: 4rem;
     margin-top: 1rem;
     font-weight: bold;
 }
@@ -59,12 +66,12 @@ nav p{
 .data{
     width: 604px;
     margin: 2rem 0px;
-    font-size: 16px;
+    font-size: 1rem;
 
 }
 
 .welcome{
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
  .book{
@@ -115,7 +122,7 @@ nav p{
     color: #616161;
     font-weight: bold;
     justify-content: center;
-    font-size: 16px;
+    font-size: 1rem;
     
  }
  
@@ -131,7 +138,7 @@ nav p{
  }
 
  .history{
-    font-size: 57px;
+    font-size: 3.5625rem;
     font-weight: bold;
     color: #424242;
     margin-top: 10px;
@@ -182,7 +189,7 @@ nav p{
 }
 
 .num{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
     align-items: center;
 }
@@ -203,12 +210,12 @@ nav p{
 }
 
 .roomcontainer{
-    padding: 100px 156px;
+    padding: 100px 0px;
     
 }
 
 .ourroom{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     color: #424242;
     display: flex;
@@ -217,7 +224,7 @@ nav p{
 
 .erooms{
     margin-top: 24px;
-    font-size: 57px;
+    font-size: 3.5625rem;
     font-weight: bolder;
     color: #424242;
     display: flex;
@@ -254,14 +261,14 @@ nav p{
     color: #424242;
     margin-top: 24px;
     margin-bottom: 8px;
-    font-size: 16px;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
 }
 
 .price1{
     color: #424242;
-    font-size: 14px;
+    font-size: 0.875rem;
     display: flex;
     justify-content: center;
 }
@@ -287,14 +294,14 @@ nav p{
     color: #424242;
     margin-top: 24px;
     margin-bottom: 8px;
-    font-size: 16px;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
 }
 
 .price2{
     color: #424242;
-    font-size: 14px;
+    font-size: 0.875rem;
     display: flex;
     justify-content: center;
 }
@@ -320,14 +327,14 @@ nav p{
     color: #424242;
     margin-top: 24px;
     margin-bottom: 8px;
-    font-size: 16px;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
 }
 
 .price3{
     color: #424242;
-    font-size: 14px;
+    font-size: 0.875rem;
     display: flex;
     justify-content: center;
 }
@@ -337,7 +344,7 @@ nav p{
 
 
 .servicecontainer{
-    padding: 100px 157px;
+    padding: 100px 0px;
 
 }
 
@@ -374,13 +381,13 @@ nav p{
 .innerinfo{
     color: #424242;
     margin-bottom: 16px;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
 .moreinfo{
     color: #9E9E9E;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .scard{
@@ -401,18 +408,18 @@ nav p{
 
 .sinnerinfo{
     margin-bottom: 16px;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
 .smoreinfo{
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 /* Review Page CSS */
 
 .reviewcontainer{
-    padding: 100px 157px;
+    padding: 100px 0px;
 }
 
 .reviews{
@@ -423,7 +430,7 @@ nav p{
 }
 
 .revque{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #424242;
     margin-top: 24px;
@@ -450,7 +457,7 @@ nav p{
 }
 
 .original-review{
-    font-size: 16px;
+    font-size: 1rem;
     color: #757575;
     width: 250px;
     margin-top: 18px;
@@ -458,14 +465,14 @@ nav p{
 }
 
 .reviewer{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     color: #424242;
     margin-top: 24px;
 }
 
 .e-mail{
-    font-size: 12px;
+    font-size: 0.75rem;
     margin-top: 8px;
     color: #757575;
     
@@ -475,7 +482,7 @@ nav p{
 /* Contact Page CSS */
 
 footer{
-    padding: 100px 80px;
+    padding: 100px 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -486,7 +493,7 @@ footer{
 }
 
 .clogo{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #424242;
 }
@@ -494,13 +501,13 @@ footer{
 .info-text{
     margin-top: 24px;
     margin-bottom: 16px;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #9E9E9E;
 }
 
 .mail{
     color: #9E9E9E;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-decoration: none;
 }
 
@@ -513,7 +520,7 @@ footer{
 }
 
 .quicklink{
-    font-size: 16px;
+    font-size: 1rem;
     color: #424242;
     font-weight: bold;
     margin-bottom: 24px;
