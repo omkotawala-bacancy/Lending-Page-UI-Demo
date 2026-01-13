@@ -8,21 +8,19 @@
 
 .container{
     max-width: 1290px;
-    padding: 0px 15px;
+    padding: 0px 0.9375rem;
     margin: 0px auto;
 }
 
 
-/* Home Page CSS */
-
 #home{
     background-image: url(/assets/images/HomeImage.png);
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
 }
 
 .homecontainer{
-   padding: 50px 80px 80px 80px;
+   padding: 3.125rem 5rem 5rem 5rem;
    
 }
 
@@ -54,7 +52,7 @@ nav p{
 }
 
 .homeinfo{
-    margin-top: 200px;
+    margin-top: 12.5rem;
 }
 
 .title{
@@ -77,17 +75,17 @@ nav p{
  .book{
     color: white;
     background-color: #FF8D41;
-    padding: 24px, 12px;
+    padding: 1.5rem 0.75rem;
     width: 119px;
     height: 44px;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-right: 0.625rem;
  }
 
  .explore{
     color: white;
     background: none;
-    padding: 24px, 12px;
+    /* padding: 1.5rem 0rem; */
     width: 119px;
     height: 44px;
     border-radius: 10px;
@@ -98,16 +96,14 @@ nav p{
 /* About Page CSS */
 
 .aboutcontainer{
-    margin: 100px 129px;
-    padding: 0px 15px;
-    max-width: 1290px;
+    margin: 6.25rem 0;
 }
 
  .ausdiv{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 12px;
+    gap: 0.75rem;
  }
 
  .sideborderright, .sideborderleft{
@@ -127,7 +123,7 @@ nav p{
  }
  
  .sec1{
-    margin-top: 100px;
+    margin-top: 6.25rem;
     display: flex;
     justify-content: space-between;
  }
@@ -141,34 +137,34 @@ nav p{
     font-size: 3.5625rem;
     font-weight: bold;
     color: #424242;
-    margin-top: 10px;
+    margin-top: 0.625rem;
  }
 
 
  .mdata1{
     color: #424242;
-    margin: 32px 0px 16px 0px;
+    margin: 2rem 0px 1rem 0px;
  }
 
   .mdata2{
     color: #424242;
-    margin: 16px 0px 32px 0px;
+    margin: 2rem 0px 1rem 0px;
  }
 
  .read{
     color: #FF8D41;
     background-color: white;
-    padding: 24px, 12px;
+    padding: 1.5rem 0.75rem;
     width: 119px;
     height: 44px;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-right: 0.625rem;
     border: 1px solid #FF8D41 ;
  }
 
  .sec2{
     display: flex;
-    margin-top: 100px;
+    margin-top: 6.25rem;
     justify-content: space-between;
  }
 
@@ -185,7 +181,7 @@ nav p{
     height: 119px;
     display: flex;
     justify-content: space-between;
-    padding: 0px 128px ;
+    padding: 0px 8rem ;
 }
 
 .num{
@@ -195,7 +191,7 @@ nav p{
 }
 
 .service, .area, .nrooms, .hcustomer{
-    margin: 20px 0px;
+    margin: 1.25rem 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -210,7 +206,7 @@ nav p{
 }
 
 .roomcontainer{
-    padding: 100px 0px;
+    padding: 6.25rem 0px;
     
 }
 
@@ -223,7 +219,7 @@ nav p{
 }
 
 .erooms{
-    margin-top: 24px;
+    margin-top: 1.5rem;
     font-size: 3.5625rem;
     font-weight: bolder;
     color: #424242;
@@ -232,10 +228,10 @@ nav p{
 }
 
 .roomcards{
-    margin-top: 100px;
+    margin-top: 6.25rem;
     display: flex;
     justify-content: space-between;
-    gap: 48px;
+    gap: 3rem;
     box-sizing: border-box;
 }
 
@@ -259,8 +255,8 @@ nav p{
 
 .jsuite{
     color: #424242;
-    margin-top: 24px;
-    margin-bottom: 8px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
     font-size: 1rem;
     display: flex;
     justify-content: center;
@@ -292,8 +288,8 @@ nav p{
 
 .esuite{
     color: #424242;
-    margin-top: 24px;
-    margin-bottom: 8px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
     font-size: 1rem;
     display: flex;
     justify-content: center;
@@ -325,8 +321,8 @@ nav p{
 
 .psuite{
     color: #424242;
-    margin-top: 24px;
-    margin-bottom: 8px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
     font-size: 1rem;
     display: flex;
     justify-content: center;
@@ -344,16 +340,16 @@ nav p{
 
 
 .servicecontainer{
-    padding: 100px 0px;
+    padding: 6.25rem 0px;
 
 }
 
 .servicescard{
-    margin-top: 100px;
+    margin-top: 6.25rem;
     display: flex;
     flex-wrap: wrap;
-    column-gap: 48px;
-    row-gap: 48px;
+    column-gap: 4rem;
+    row-gap: 4rem;
     justify-content: center;
 }
 
@@ -364,7 +360,7 @@ nav p{
 }
 
 .innerservice{
-    padding: 64px 32px;
+    padding: 4rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -375,12 +371,12 @@ nav p{
 .servicelogo{
     width: 36px;
     height: 36px;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 
 .innerinfo{
     color: #424242;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
     font-size: 1.25rem;
     font-weight: bold;
 }
@@ -398,7 +394,7 @@ nav p{
 }
 
 .sinnerservice{
-    padding: 64px 32px;
+    padding: 4rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -407,7 +403,7 @@ nav p{
 }
 
 .sinnerinfo{
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
     font-size: 1.25rem;
     font-weight: bold;
 }
@@ -419,21 +415,21 @@ nav p{
 /* Review Page CSS */
 
 .reviewcontainer{
-    padding: 100px 0px;
+    padding: 6.25rem 0px;
 }
 
 .reviews{
     display: flex;
-    margin-top: 100px;
+    margin-top: 6.25rem;
     justify-content: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .revque{
     font-size: 2.5rem;
     font-weight: bold;
     color: #424242;
-    margin-top: 24px;
+    margin-top: 1.5rem;
     display: flex;
     justify-content: center;
 }
@@ -444,7 +440,7 @@ nav p{
 }
 
 .innerreview{
-    padding: 24px 16px;
+    padding: 1.5rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -460,7 +456,7 @@ nav p{
     font-size: 1rem;
     color: #757575;
     width: 250px;
-    margin-top: 18px;
+    margin-top: 1.125rem;
     text-align: center;
 }
 
@@ -468,12 +464,12 @@ nav p{
     font-size: 1rem;
     font-weight: bold;
     color: #424242;
-    margin-top: 24px;
+    margin-top: 1.5rem;
 }
 
 .e-mail{
     font-size: 0.75rem;
-    margin-top: 8px;
+    margin-top: 0.5rem;
     color: #757575;
     
 }
@@ -482,7 +478,7 @@ nav p{
 /* Contact Page CSS */
 
 footer{
-    padding: 100px 0px;
+    padding: 6.25rem 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -499,8 +495,8 @@ footer{
 }
 
 .info-text{
-    margin-top: 24px;
-    margin-bottom: 16px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
     font-size: 0.875rem;
     color: #9E9E9E;
 }
@@ -523,7 +519,7 @@ footer{
     font-size: 1rem;
     color: #424242;
     font-weight: bold;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 footer .qlinks ul{
@@ -538,5 +534,5 @@ footer .qlinks ul li a{
 }
 
 footer .qlinks ul li{
-    margin-top: 16px;
+    margin-top: 1rem;
 }

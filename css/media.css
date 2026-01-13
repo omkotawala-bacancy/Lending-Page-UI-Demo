@@ -1,0 +1,70 @@
+@media (max-width: 520px){
+    .sec1{
+        flex-wrap: wrap;
+
+    }
+
+    .sec2{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .sec1, .sec2{
+        row-gap: 1rem;
+        justify-content: center;
+    }
+
+    .line{
+        flex-wrap: wrap;
+    }
+
+    .roomcards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .reviews{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer{
+        flex-wrap: wrap;
+    }
+}
+
+@media(min-width: 521px) and  (max-width: 1203px){
+    .sec1{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .sec2{
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sec1, .sec2{
+        row-gap: 1rem;
+    }
+
+    .line{
+        flex-wrap: wrap;
+    }
+
+    .roomcards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .reviews{
+        flex-wrap: wrap;
+    }
+
+    footer{
+        flex-wrap: wrap;
+    }
+}
+
